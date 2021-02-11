@@ -288,7 +288,6 @@
 		13B67315212229B20040FB72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD4DF231C18EDBF003DC425 /* CoreGraphics.framework */; };
 		13B67316212229B20040FB72 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDFA8AC1BDEC34C00883EC0 /* CoreMotion.framework */; };
 		13B67317212229B20040FB72 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FDFA8AA1BDEC32700883EC0 /* GLKit.framework */; };
-		13B67318212229B20040FB72 /* Pods_ViroKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574D44685DE21A586EEBF25D /* Pods_ViroKit.framework */; };
 		13B6731A212229B20040FB72 /* VROPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B4AF0720535CDA0006D970 /* VROPolygon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13B6731B212229B20040FB72 /* VROFixedParticleEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B433EA204E64A500E9EE53 /* VROFixedParticleEmitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13B6731C212229B20040FB72 /* VROPencil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD2A5041F81273F00E831A6 /* VROPencil.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1649,7 +1648,7 @@
 		A5EC65B61EBFF57B00FE220E /* VROPhysicsBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EC65B31EBFF42100FE220E /* VROPhysicsBody.cpp */; };
 		A5EC65B71EBFF5A100FE220E /* VROPhysicsBody.h in Headers */ = {isa = PBXBuildFile; fileRef = A5EC65B41EBFF42100FE220E /* VROPhysicsBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5EC65B81EC004E100FE220E /* VROPhysicsShape.h in Headers */ = {isa = PBXBuildFile; fileRef = A5EC65941EBD16F000FE220E /* VROPhysicsShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAD7E32D2DFA518AEAAB48C2 /* Pods_ViroKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574D44685DE21A586EEBF25D /* Pods_ViroKit.framework */; };
+		EAD7E32D2DFA518AEAAB48C2 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1754,7 +1753,6 @@
 		2D50EA9016C5481FBEA660D5 /* Pods-ViroARKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViroARKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViroARKit/Pods-ViroARKit.release.xcconfig"; sourceTree = "<group>"; };
 		369FA4D6365A69988D645538 /* Pods-ViroSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViroSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViroSample/Pods-ViroSample.release.xcconfig"; sourceTree = "<group>"; };
 		48567375A658D093284ACEDD /* libPods-ViroARKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViroARKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		574D44685DE21A586EEBF25D /* Pods_ViroKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViroKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5900241E3CB603B31B8DDDDA /* Pods-ViroSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViroSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViroSample/Pods-ViroSample.debug.xcconfig"; sourceTree = "<group>"; };
 		5F74787A42D418320F1E3362 /* Pods-ViroKit_static_lib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViroKit_static_lib.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViroKit_static_lib/Pods-ViroKit_static_lib.release.xcconfig"; sourceTree = "<group>"; };
 		69FBDCF89ECBB5500043C227 /* Pods-ViroARKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViroARKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViroARKit/Pods-ViroARKit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -2759,7 +2757,6 @@
 				13B67315212229B20040FB72 /* CoreGraphics.framework in Frameworks */,
 				13B67316212229B20040FB72 /* CoreMotion.framework in Frameworks */,
 				13B67317212229B20040FB72 /* GLKit.framework in Frameworks */,
-				13B67318212229B20040FB72 /* Pods_ViroKit.framework in Frameworks */,
 				55EE8FA2030FEBF9DA70D28E /* libPods-ViroKit_static_lib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2816,7 +2813,7 @@
 				8FD4DF241C18EDBF003DC425 /* CoreGraphics.framework in Frameworks */,
 				8FD4DF1F1C18EDA4003DC425 /* CoreMotion.framework in Frameworks */,
 				8FD4DF201C18EDA4003DC425 /* GLKit.framework in Frameworks */,
-				EAD7E32D2DFA518AEAAB48C2 /* Pods_ViroKit.framework in Frameworks */,
+				EAD7E32D2DFA518AEAAB48C2 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4271,7 +4268,6 @@
 				8F1664A51E5E43260062EBCE /* Accelerate.framework */,
 				8FDDE2111CD00F2600674DE2 /* CoreText.framework */,
 				48567375A658D093284ACEDD /* libPods-ViroARKit.a */,
-				574D44685DE21A586EEBF25D /* Pods_ViroKit.framework */,
 				E7A7748CC8659A11C76D30F3 /* Pods_ViroSample.framework */,
 				782820C4A876FF888106C852 /* libPods-ViroKit_static_lib.a */,
 			);
@@ -5158,26 +5154,29 @@
 				ORGANIZATIONNAME = "Viro Media";
 				TargetAttributes = {
 					13B67216212229B20040FB72 = {
-						DevelopmentTeam = UN8MD7234Y;
+						DevelopmentTeam = 63LYZZE65Z;
 					};
 					8F517BB51BCDA2BD0017C70B = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = UN8MD7234Y;
+						DevelopmentTeam = 63LYZZE65Z;
 					};
 					8F517BD11BCDA2BD0017C70B = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 63LYZZE65Z;
 						TestTargetID = 8F517BB51BCDA2BD0017C70B;
 					};
 					8F517BDC1BCDA2BE0017C70B = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 63LYZZE65Z;
 						TestTargetID = 8F517BB51BCDA2BD0017C70B;
 					};
 					8FD4DECC1C18ECD4003DC425 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = UN8MD7234Y;
+						DevelopmentTeam = 63LYZZE65Z;
 					};
 					8FD4DED51C18ECD4003DC425 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 63LYZZE65Z;
 						TestTargetID = 8F517BB51BCDA2BD0017C70B;
 					};
 				};
@@ -5610,7 +5609,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ViroKit_static_lib/Pods-ViroKit_static_lib-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ViroKit_static_lib/Pods-ViroKit_static_lib-resources.sh",
 				"${PODS_ROOT}/GVRSDK/Resources/CardboardSDK.bundle",
 				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitCore.bundle",
 				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitDialogs.bundle",
@@ -5627,7 +5626,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViroKit_static_lib/Pods-ViroKit_static_lib-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViroKit_static_lib/Pods-ViroKit_static_lib-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		13B67475212229B20040FB72 /* Lipo Framework and Copy to Bridge */ = {
@@ -5684,7 +5683,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ViroSample/Pods-ViroSample-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ViroSample/Pods-ViroSample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher-framework/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-framework/GoogleToolboxForMac.framework",
 			);
@@ -5695,7 +5694,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViroSample/Pods-ViroSample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViroSample/Pods-ViroSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7C01BF43D020C7409FBEF14B /* [CP] Copy Pods Resources */ = {
@@ -5704,7 +5703,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ViroSample/Pods-ViroSample-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ViroSample/Pods-ViroSample-resources.sh",
 				"${PODS_ROOT}/GVRSDK/Resources/CardboardSDK.bundle",
 				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitCore.bundle",
 				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitDialogs.bundle",
@@ -5721,7 +5720,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViroSample/Pods-ViroSample-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViroSample/Pods-ViroSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8A8B69DD2036344C00D98723 /* Lipo Framework and Copy to Bridge */ = {
@@ -5745,7 +5744,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ViroKit/Pods-ViroKit-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ViroKit/Pods-ViroKit-resources.sh",
 				"${PODS_ROOT}/GVRSDK/Resources/CardboardSDK.bundle",
 				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitCore.bundle",
 				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitDialogs.bundle",
@@ -5762,7 +5761,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViroKit/Pods-ViroKit-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViroKit/Pods-ViroKit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E82CFD5E20AECB790091154F /* Lipo Framework and Copy to Bridge (build intermediates for Jenkins) */ = {
@@ -6437,7 +6436,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = UN8MD7234Y;
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -6550,7 +6549,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = UN8MD7234Y;
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -6777,7 +6776,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = UN8MD7234Y;
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6843,7 +6842,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = UN8MD7234Y;
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6906,6 +6905,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				INFOPLIST_FILE = ViroRendererTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viro.ViroRendererTests;
@@ -6918,6 +6918,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				INFOPLIST_FILE = ViroRendererTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viro.ViroRendererTests;
@@ -6930,6 +6931,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				INFOPLIST_FILE = ViroRendererUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viro.ViroRendererUITests;
@@ -6942,6 +6944,7 @@
 		8F517BEE1BCDA2BE0017C70B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				INFOPLIST_FILE = ViroRendererUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viro.ViroRendererUITests;
@@ -6961,7 +6964,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = UN8MD7234Y;
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -7075,7 +7078,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = UN8MD7234Y;
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -7173,6 +7176,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				INFOPLIST_FILE = ViroKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -7185,6 +7189,7 @@
 		8FD4DEEA1C18ECD4003DC425 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 63LYZZE65Z;
 				INFOPLIST_FILE = ViroKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

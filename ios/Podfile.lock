@@ -16,7 +16,7 @@ DEPENDENCIES:
   - GVRSDK (= 1.120.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - GoogleToolboxForMac
     - GTMSessionFetcher
     - GVRAudioSDK
@@ -32,4 +32,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 26ce74a09cf7430dd7c82b2b79c95dfd6159f50c
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.1
